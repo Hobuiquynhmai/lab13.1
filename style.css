@@ -1,0 +1,41 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,forest");
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,mountain");
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
+  text-align: center;
+}
